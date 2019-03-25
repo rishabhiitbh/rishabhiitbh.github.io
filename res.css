@@ -1,0 +1,73 @@
+@font-face {
+    font-family: fetamont;
+    src: url(ffmr8.otf);
+    font-weight: bold;
+  }
+.fright
+{
+    float: right;
+}
+.fleft{
+float: left;
+}
+
+
+#me {
+font-size: 8mm;
+color : indigo;
+font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+width:50%;
+margin-left: 1mm;
+}
+
+#bio{
+    font-size: 5mm;
+    color: black;
+    margin-left: 1mm;    
+}
+#contact-info {
+    font-family: Arial;
+    font-size: 4mm;
+    text-align: right;
+    width: 48%;
+}
+#section-header{
+    font-family: fetamont;
+    font-size: 5mm;
+    color: black;
+    margin-left: 1mm;
+}
+#section-body {
+    font-family: Arial;
+    font-size: 3.5mm;
+    margin-left: 1mm;
+}
+
+hr.boldline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid brown;
+    margin: 4px;
+    padding: 0;
+    width: 100%;
+}
+
+hr.dashedline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed darkslategrey;
+    margin:  4px;
+    padding: 0;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
